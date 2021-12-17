@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #233E8B;
+}
+
+.contenedor-total{
+    padding: 0;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border: 10px solid #0a1d4e;
+    margin-top: 70px;
+}
+
+.player{
+    width: 50px;
+    height: 50px;
+    background-color: #C68B59;
+    border-radius: 50%;
+    box-shadow: -3px -4px 0 0 rgba(0, 0, 0, .15) inset;
+}
+
+.pepita1{
+    width: 9px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 15px;
+    top: 4px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+           
+}
+
+.pepita2{
+    width: 9px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 17px;
+    top: 29px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+}
+
+.pepita3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 33px;
+    top: 5px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+}
+
+.pepita4{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 5px;
+    top: -4px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+}
+
+.pepita5{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 20px;
+    top: -8px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+}
+
+.pepita6{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #5f340f;
+    position: relative;
+    left: 28px;
+    top: -31px;
+    box-shadow: -1px -2px 0 0 rgba(0, 0, 0, .3) inset;
+}
+
+/*-------------------------------------------------------------------*/
+.pinta1{
+    color: #946033;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+.pinta2{
+    color: #946033;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+.pinta3{
+    color: #946033;
+    position: relative;
+    left: 28px;
+    bottom: 70px;
+}
+
+.pinta4{
+    color: #946033;
+    position: relative;
+    left: 28px;
+    bottom: 95px;
+}
+
+.pinta5{
+    color: #946033;
+    position: relative;
+    left: 8px;
+    bottom: 120px;
+}
+
+.pinta6{
+    color: #946033;
+    position: relative;
+    left: 10px;
+    bottom: 120px;
+}
+
+.pinta7{
+    color: #946033;
+    position: relative;
+    left: 20px;
+    bottom: 133px;
+}
+
+.pinta8{
+    color: #946033;
+    position: relative;
+    left: 20px;
+    bottom: 170px;
+}
+
+.pinta9{
+    color: #946033;
+    position: relative;
+    left: 16px;
+    bottom: 185px;
+}
