@@ -6,17 +6,40 @@
 
 body{
     background-color: #233E8B;
+    font-family: 'Patrick Hand', cursive;
 }
 
-.contenedor-total{
+.cont{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor-puntaje{
+    width:500px;
+    height: 50px;
+    background: #0a1d4e;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.contenedor-juego{
     padding: 0;
     margin: auto;
     width: 500px;
     height: 500px;
     background-color: #fff;
     border: 10px solid #0a1d4e;
-    margin-top: 70px;
+ 
 }
+
+
 
 .player{
     width: 50px;
@@ -97,61 +120,61 @@ body{
 .pinta1{
     color: #946033;
     position: relative;
-    left: 10px;
-    bottom: 20px;
+    left: 5px;
+    bottom: 30px;
 }
 
 .pinta2{
     color: #946033;
     position: relative;
-    left: 30px;
-    bottom: 40px;
+    left: 34px;
+    bottom: 50px;
 }
 .pinta3{
     color: #946033;
     position: relative;
     left: 28px;
-    bottom: 70px;
+    bottom: 87px;
 }
 
 .pinta4{
     color: #946033;
     position: relative;
     left: 28px;
-    bottom: 95px;
+    bottom: 85px;
 }
 
 .pinta5{
     color: #946033;
     position: relative;
     left: 8px;
-    bottom: 120px;
+    bottom: 110px;
 }
 
 .pinta6{
     color: #946033;
     position: relative;
     left: 10px;
-    bottom: 120px;
+    bottom: 159px;
 }
 
 .pinta7{
     color: #946033;
     position: relative;
     left: 20px;
-    bottom: 133px;
+    bottom: 170px;
 }
 
 .pinta8{
     color: #946033;
     position: relative;
     left: 20px;
-    bottom: 170px;
+    bottom: 176px;
 }
 
 .pinta9{
     color: #946033;
     position: relative;
     left: 16px;
-    bottom: 185px;
+    bottom: 215px;
 }
