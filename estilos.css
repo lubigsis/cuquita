@@ -10,7 +10,7 @@ body{
 }
 
 .cont{
-    height: 100vh;
+    height: 600px;
     margin: auto;
     display: flex;
     border: 1px solid red;
