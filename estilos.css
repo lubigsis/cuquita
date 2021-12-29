@@ -10,13 +10,21 @@ body{
 }
 
 .cont{
-    height: 600px;
+    height: 100vh;
     margin: auto;
     display: flex;
     border: 1px solid red;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    
+}
+
+
+.contenedor-tiempo{
+    color: rgb(235, 13, 13);
+    position: absolute;
+    margin-top: 41px;
+    font-size: 17px;
 }
 
 .contenedor-puntaje{
@@ -25,9 +33,8 @@ body{
     background: #0a1d4e;
     color: #fff;
     font-size: 25px;
-    padding: 5px;
+    padding: 10px;
     margin-top: 25px;
-    text-align: center;
     border: 1px dashed #fff;
 }
 
@@ -35,12 +42,50 @@ body{
     padding: 0;
     margin: auto;
     width: 500px;
-    height: 500px;
+    height: 600px;
     background-color: #fff;
     border: 10px solid #0a1d4e;
  
 }
 
+.botones{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 55px;    
+ 
+}
+
+.btn-start{
+    width: 40%;
+    margin-right: 30px;
+    font-size: 18px;
+    padding: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px dashed #fff;
+    color: #fff;
+}
+
+.btn-stop{
+    width: 40%;
+    margin-right: 30px;
+    font-size: 18px;
+    padding: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px dashed #fff;
+    color: #fff;
+}
 
 
 .player{
