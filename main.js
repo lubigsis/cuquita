@@ -1,10 +1,12 @@
 document.getElementById('playerJS').addEventListener("mouseover", sumarPuntos);
-
+botonEmpezar = document.getElementById('btn-start-JS');
 let puntos = 0;
-let tiempo = 60;
+let tiempo = 15;
 let delTotal = 50;
 
 
+
+//---------------------------------------------------------------------------FUNCIONES-------------------
 function sumarPuntos(){
     puntos++;
     document.getElementById("puntajeJS").innerHTML = "Puntos: <b>" + puntos + "/" + delTotal + "</b>";
@@ -20,6 +22,7 @@ function sumarPuntos(){
     }
 };
 
+
 function restarTiempo(){
     tiempo--;
     document.getElementById("cont-tiempoJS").innerHTML = "Tiempo: " + tiempo;
@@ -30,4 +33,12 @@ function restarTiempo(){
     }
 }
 
-setInterval(restarTiempo, 1000);
+//setInterval(restarTiempo, 1000);
+
+botonEmpezar.addEventListener('click', empezarJuego);
+
+function empezarJuego(){
+    sumarPuntos();
+  //  restarTiempo();
+    setInterval(restarTiempo, 1000);
+}

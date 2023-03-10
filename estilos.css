@@ -9,11 +9,20 @@ body{
     font-family: 'Patrick Hand', cursive;
 }
 
+p{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 .cont{
+    max-width: 1200px;
     height: 100vh;
     margin: auto;
     display: flex;
-    border: 1px solid red;
+ /*   border: 1px solid red;*/
     flex-direction: column;
     align-items: center;
     
@@ -21,27 +30,30 @@ body{
 
 
 .contenedor-tiempo{
-    color: rgb(235, 13, 13);
+    color: #fff;
     position: absolute;
-    margin-top: 41px;
-    font-size: 17px;
+    margin-top: 60px;
+    font-size: 18px;
+   /* border: 1px solid red;*/
 }
 
 .contenedor-puntaje{
     width:500px;
-    height: 50px;
+    height: 40px;
     background: #0a1d4e;
     color: #fff;
     font-size: 25px;
     padding: 10px;
-    margin-top: 25px;
-    border: 1px dashed #fff;
+   /* margin-top: 25px;*/
+  /*  border: 1px dashed #fff;*/
+    
 }
 
-.contenedor-juego{
+.cont .contenedor-juego{
     padding: 0;
     margin: auto;
     width: 500px;
+    max-width: 600px;
     height: 600px;
     background-color: #fff;
     border: 10px solid #0a1d4e;
@@ -49,31 +61,32 @@ body{
 }
 
 .botones{
-    width: 30%;
+    width: 10%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     display: inline-block;
-    margin: 5px;
-    margin-left: 55px;    
+    margin: 5px auto;
+  /*  margin-left: 55px;    */
+ /* border: 1px solid yellow;  */
  
 }
 
 .btn-start{
-    width: 40%;
-    margin-right: 30px;
+    width: 100%;
+ /*   margin-right: 30px;*/
     font-size: 18px;
     padding: 5px;
     letter-spacing: 3px;
     cursor: pointer;
     background-color: red;
     border-radius: 4px;
-    border: 1px dashed #fff;
+    border: 1px solid #fff;
     color: #fff;
 }
-
+/*
 .btn-stop{
     width: 40%;
     margin-right: 30px;
@@ -86,8 +99,9 @@ body{
     border: 1px dashed #fff;
     color: #fff;
 }
+*/
 
-
+/*-----------------------------------------------------------------------galletita------------------------*/
 .player{
     width: 50px;
     height: 50px;
@@ -95,8 +109,9 @@ body{
     border-radius: 50%;
     box-shadow: -3px -4px 0 0 rgba(0, 0, 0, .15) inset;
     position: absolute;
-    cursor: pointer;
     transition: all 0.3s;
+    cursor: pointer;
+  /*  border: 2px solid green;*/
 }
 
 .pepita1{

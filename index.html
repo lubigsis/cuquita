@@ -12,17 +12,13 @@
 </head>
 <body>
     <main>      
-          <div class="cont">   
-              
-           
-                <div class="contenedor-puntaje" id="puntajeJS"> </div>
-                <span class="contenedor-tiempo" id="cont-tiempoJS"></span>      
-                                     
-                <div class="contenedor-ned" id="cont-nedJS"></div>
-                
-              
+          <div class="cont">  
+            <p>Tenes que pasar el cursor sobre la galletita, '50' veces, antes de que se acabe el tiempo.</p>             
+                <div class="contenedor-puntaje" id="puntajeJS">Puntos: 1/50 </div>
+                <span class="contenedor-tiempo" id="cont-tiempoJS">Tiempo: 15</span>                                       
+                <div class="contenedor-ned" id="cont-nedJS"></div>          
          
-
+<!----------------------------------------------------------------------diseño galletita------------------------->
             <div class="contenedor-juego">  
                 <div class="player" id="playerJS">
                     <div class="pepita1"></div>
@@ -43,14 +39,17 @@
                     <div class="pinta9">.</div>
                 </div>
             
-         </div>
+            </div>
 
-         <div class="botones">
-            <button class="btn-start" id="btn-start-JS" onclick="btnEmpezar()">Start</button>
-            <button class="btn-stop" id="btn-stop-JS">Stop</button>
-        </div>
+            <div class="botones">
+                <button class="btn-start" id="btn-start-JS" onclick="btnEmpezar()">Start</button>
+             <!--   <button class="btn-stop" id="btn-stop-JS">Stop</button>   -->
+            </div>
+
         </div>
     </main>
+
+<!-----------------------------------------------------------------------JAVASCRIPT------------------------->
     <script src="main.js"></script>
 </body>
 </html>
